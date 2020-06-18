@@ -43,6 +43,7 @@ Advanced Git
 - git rebase -i: interactive rebasing
 - git blame: show who last edited which line
 - git stash: temporarily remove modifications to working directory
+- git stash pop: unstash changes and readd them to staging area
 - git bisect: binary search history (e.g. for regressions)
 - .gitignore: specify intentionally untracked files to ignore
 
