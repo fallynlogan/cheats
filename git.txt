@@ -8,6 +8,7 @@ Basics
 Write good commit messages!
 Even more reasons to write good commit messages!
 - git log: shows a flattened log of history
+- git log --oneline (above but condensed)
 - git log --all --graph --decorate: visualizes history as a DAG
 - git diff <filename>: show differences since the last commit
 - git diff <revision> <filename>: shows differences in a file between snapshots
@@ -18,6 +19,7 @@ Branching and merging
 - git branch <name>: creates a branch
 - git checkout -b <name>: creates a branch and switches to it
   same as git branch <name>; git checkout <name>
+- git switch <name>: switches to specified branch   
 - git merge <revision>: merges into current branch
 - git mergetool: use a fancy tool to help resolve merge conflicts
 - git rebase: rebase set of patches onto a new base
@@ -50,3 +52,14 @@ Advanced Git
 
 https://ohshitgit.com/
 REALLY HELPFUL FOR FIXING MISTAKES LOOK AT THIS FIRST 
+
+adding stuff 
+- git add . (adds all modified files to staging)
+- git add *.html (add only certain file types - adds all .html files to staging, works for any file type)
+- 
+
+.gitignore
+- .gitignore will not allow anything included to be staged/commited 
+    log.txt - ignore this file name
+    /dir2 - ignore this folder and its entire contents 
+    *.txt - ignore all text files 
